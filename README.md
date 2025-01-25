@@ -10,5 +10,7 @@ https://github.com/user-attachments/assets/567e0d9b-08f9-490b-9fed-37493b7042e8
 Run this to allow the tool to be used as a command in linux:
 ```
 gcc flexon.c -o flexon
-mv flexon /usr/local/bin
+mkdir -p ~/.local/bin
+mv mycli ~/.local/bin
+export PATH=$PATH:~/.local/bin
 ```
