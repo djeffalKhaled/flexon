@@ -10,5 +10,5 @@ https://github.com/user-attachments/assets/567e0d9b-08f9-490b-9fed-37493b7042e8
 Run this to allow the tool to be used as a command in linux:
 ```
 gcc flexon.c -o flexon.exe
-mv mycli /YOUR-USERNAME/local/bin
+mv flexon.exe /YOUR-USERNAME/local/bin
 ```
